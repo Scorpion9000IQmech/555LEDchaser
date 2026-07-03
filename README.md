@@ -16,12 +16,18 @@ I made the project this way simply because I liked the idea of the heart; my pas
 
 <img width="1444" height="794" alt="image" src="https://github.com/user-attachments/assets/27bdd5a1-b1fa-4f03-9c17-21a680fe4ddf" />
 
-The potentiometer can be replaced for three pinheaders and the potentiometer connected by a wire, depending on the potentiometer
-
 this is my BOM, though I plan on just ordering it myself, and printing my case myself since I have a personal 3d printer
 And here is the full assembly with my open top case and the PCB in the shape of an anatomical heart that lights up in the flow of blood.
 
 <img width="741" height="559" alt="image" src="https://github.com/user-attachments/assets/69695651-49dd-40ad-a931-4354a15a1605" />\
+
+## important tips
+---
+1. it is shown in the schematic, but the bottom pin in the two header pins connected to the board is the GND, and the upper is the +5V
+2. The potentiometer can be replaced for three pinheaders and the potentiometer connected by a wire, depending on the potentiometer
+3. the CD4017 is SMD, quite annoying to solder."
+4. also shown in schematic but the anode of the led goes in the circle pad, and the GND in the square pad
+5. the capacitors can be switched if they have the same values requires, but be wary of which hole the anode/cathode is being put in with cylindrical capacitors
 
 ## Physical example:
 ---
